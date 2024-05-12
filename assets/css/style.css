@@ -892,7 +892,7 @@ address {
 
   .helpline-box .icon-box { padding: 14px; }
 
-  .header-top .logo img { max-width: unset; }
+  .header-top .logo img { max-width: 300px; }
 
   .search-btn { font-size: 30px; }
 
