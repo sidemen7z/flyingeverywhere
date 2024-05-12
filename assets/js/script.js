@@ -45,10 +45,6 @@ window.addEventListener("scroll", function () {
 
 });
 
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement({
-    pageLanguage: 'en',
-    layout: google.translate.TranslateElement.InlineLayout,
-    autoDisplay: false
-  }, 'google_translate_element');
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement({ pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE }, 'google_translate_element');
 }
